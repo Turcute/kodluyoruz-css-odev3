@@ -1,0 +1,230 @@
+/* Header kısmı (üst menü) */
+.header {
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+/* Header item'ları (linklerin hizalanması) */
+.header-items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Header liste öğeleri (li) */
+.headerli a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+/* Header öğesi üzerine gelindiğinde alt çizgi ekler */
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+/* Ana container, logo ve arama alanı */
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+/* Arama alanı tasarımı */
+.search-area {
+  border-radius: 24px;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+}
+
+/* Arama kutusu üzerine gelindiğinde gölge ekler */
+.search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Arama alanı esnek düzen ayarları */
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Arama ikonu için stil */
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+/* Arama ikonu için ikon ayarları */
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+/* Arama giriş alanı */
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding-bottom: 6px;
+}
+
+/* Giriş alanı stilizasyonu */
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+/* Arama kutusu input stilizasyonu */
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  border: 0;
+  width: 480px;
+}
+
+/* Google Search butonu */
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #f2f2f2;
+}
+
+/* Feeling Lucky butonu */
+.feelinglucky {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #f2f2f2;
+}
+
+/* Footer kısmı */
+.footer {
+  list-style: none;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+}
+
+/* Footer liste öğeleri */
+.footerli {
+  float: left;
+}
+
+/* Footer linkleri */
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+/* Footer linkleri üzerine gelindiğinde alt çizgi ekler */
+.footerli a:hover {
+  text-decoration: underline;
+}
+
+/* Profil fotoğrafı */
+.profilepic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+/* Sesli arama ikonu */
+.image-item {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-top: -5px;
+  margin-right: 8px;
+}
+
+/* Butonları merkezde hizalar */
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+}
+
+/* Buton metni */
+.text {
+  color: #5f6368;
+  font-family: Arial;
+  font-size: 14px;
+}
